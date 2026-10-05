@@ -1,0 +1,8 @@
+Annotations: Annotations in spring are metadata that we add to classes, methods or fields, to tell the
+Spring container how that component should be treated and configured.
+
+ApplicationContext context= new AnnotationConfigApplicationContext(AppConfig.class);
+
+This line creates the Spring IoC container using AppConfig as the configuration class. Spring reads the configuration, creates and manages the required beans, and performs dependency injection. The returned ApplicationContext is then used to access those beans
+
+
